@@ -1,0 +1,36 @@
+// Código de Nav acá
+
+nav {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f6f6;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f6f6f6;
+
+  h1 {
+    font-size: 40px;
+    padding: 25px;
+  }
+
+  ul {
+    display: flex;
+
+    li {
+      margin-right: 20px;
+
+      a {
+        font-size: 16px;
+        text-decoration: none;
+        color: #000;
+        transition: all 0.3s ease;
+
+        &:hover {
+          border-bottom: 1px solid #000;
+          
+        }
+      }
+    }
+  }
+}
